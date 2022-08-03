@@ -1,0 +1,36 @@
+{
+  "successProcessOrder": {
+    "order_id": "182102",
+    "order_description": "sample description",
+    "order_status": "New",
+    "last_updated_timestamp": 1642321210439,
+    "special_order": false
+  },
+  "failProcessOrderInvalidRequest": {
+    "order_description": "sample description",
+    "order_status": "New",
+    "last_updated_timestamp": 1642321210439,
+    "special_order": false
+  },
+  "failProcessOrderIdNotExist": {
+    "order_id": "123456",
+    "order_description": "sample description",
+    "order_status": "New",
+    "last_updated_timestamp": 1642321210439,
+    "special_order": false
+  },
+  "failProcessOrderIdProcessed": {
+    "order_id": "182101",
+    "order_description": "sample description",
+    "order_status": "Processed",
+    "last_updated_timestamp": 1642321210439,
+    "special_order": false
+  },
+  "failProcessOrderInvalidTimestamp": {
+    "order_id": "182101",
+    "order_description": "sample description",
+    "order_status": "Processed",
+    "last_updated_timestamp": "2022-08-01 13:00:00",
+    "special_order": false
+  }
+}
